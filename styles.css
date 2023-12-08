@@ -92,7 +92,7 @@ a:active {
     z-index: 0;
     margin-right: 70px;
     display: flex;
-
+    
     
 }
 .soldiers {
@@ -100,7 +100,7 @@ a:active {
     position: sticky;
     vertical-align: bottom;
     z-index: 1;
-
+    
 }
 
 .mision {
@@ -183,7 +183,7 @@ a:active {
   flex-direction: column;
   margin: 0 0 0 0;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 590px;
 }
 .logo2 {
     margin-left: 70px;
