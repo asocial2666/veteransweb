@@ -71,11 +71,14 @@ a:link {
 }
 
 button:hover {
-    color: black !important;
+    color: #000000 !important;
     background-color: #ffc74c;
-    border: 2px solid #ffc74c;
+    border: 2px solid;
+    border-color: #000000;
 }
-
+a:hover {
+    color:#000000 !important;
+}
 a:visited {
     color: #ffc74c;
 }
@@ -96,7 +99,7 @@ a:active {
     width: 100%;
     position: sticky;
     vertical-align: bottom;
-    z-index: 0;
+    z-index: 1;
 
 }
 
