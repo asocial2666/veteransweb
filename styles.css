@@ -38,9 +38,9 @@ video {
   }
 
 .vets {
-    padding-top: 370px;
-    padding-left: 347px;
-    width: 40vw;
+    margin-top: 370px;
+    margin-left: 347px;
+    width: 30vw;
     
 }
 
@@ -59,10 +59,12 @@ video {
     border: solid;
     border-radius: 2px;
     border-color: #000000;
-    font-size: 14px;
+    font-size: 14pt;
     margin-left: 31px;
     width: 178px;
     height: 41px;
+    padding: auto;
+    text-align: center;
     font-family: "/fonts/MonumentExtended-Regular.otf"
 }
 
@@ -86,21 +88,12 @@ a:visited {
 a:active {
     color: #000000;
 }
-.section2 {
-    width: 100vh;
-    height: 50%;
-    z-index: 0;
-    margin-right: 70px;
-    display: flex;
-    
-    
-}
+
 .soldiers {
     width: 100%;
     position: sticky;
     vertical-align: bottom;
     z-index: 1;
-    
 }
 
 .mision {
@@ -111,10 +104,6 @@ a:active {
     justify-content: flex-end;
     position: relative;
     top: 0;
-    max-width: 200px;
-    max-height: 30px;
-    margin-right: 270px;
-
 }
 .vision {
     margin-left: auto;
@@ -127,7 +116,7 @@ a:active {
     max-height: 50px;
 }
 .h1mision {
-    margin-left: 78%;
+    margin-left: 75%;
     margin-right: 70px;
     padding-top: 572px;
     text-align: right;
@@ -138,12 +127,13 @@ a:active {
 .pmision {
     margin-right: 70px;
     margin-left: 78%;
-    padding-top: 25px;
+    margin-top: 25px;
     text-align: right;
     color: #ffffff;
     font-size: 14pt;
     position: relative;
     z-index: 1;
+    
 }
 .h1vision {
     margin-left: 78%;
@@ -167,7 +157,7 @@ a:active {
 }
 .footer {
   position: sticky;  
-  margin-top: auto;
+  margin-top: 370px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -183,7 +173,7 @@ a:active {
   flex-direction: column;
   margin: 0 0 0 0;
   width: 100%;
-  margin-top: 590px;
+  margin-top: 50px;
 }
 .logo2 {
     margin-left: 70px;
@@ -195,16 +185,16 @@ a:active {
     position: relative;
     color: #ffc74c;
     text-align: center;
-    padding-bottom: 8px;
-    margin-bottom: 79px;
-    margin-left: 427px;
+    margin-bottom: 88px;
+    margin-left: 827px;
 }
 
 .links {
     flex-wrap: wrap;
-    width: 36px;
+    width: 30px;
     height: 30px;
-    margin-bottom: 74px;
+    margin-bottom: 79px;
+    margin-right: 170px;
     gap: 38px;
     padding-right: 70px;
     position: relative;
@@ -212,6 +202,21 @@ a:active {
     flex-direction: column;
     justify-content: right;
     padding-bottom: 0; 
-    margin-right: 270px;
+    
 }
-
+@media screen and (max-width: 600px) {
+    .vets {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    video {
+        width
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
