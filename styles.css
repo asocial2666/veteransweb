@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'MonumentExtended';
+    src: url(/public/fonts/MonumentExtended-Regular.otf);
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'MonumentExtended', sans-serif;
 }
 body {
     position: relative;
