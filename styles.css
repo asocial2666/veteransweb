@@ -90,6 +90,13 @@ video {
     padding: 1rem;
 }
 
+.not-allowed{
+    cursor: not-allowed;
+}
+.not-pointer{
+    pointer-events: none;
+}
+
 .title-header{
     margin-bottom: 2rem;
 }
@@ -131,7 +138,6 @@ a:visited {
 .button-wp{
     margin-top: 1rem;
     opacity: 30%;
-    pointer-events: none;
 }
 .soldiers {
     width: 100%;
