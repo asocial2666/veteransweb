@@ -31,7 +31,7 @@ body {
 .div-logo{
     display: flex;
     justify-content: space-between;
-    padding: 5rem;
+    padding: 2rem;
     /* position: absolute; */
 }
 
@@ -231,18 +231,12 @@ a:visited {
     .vets {
         width: 40vw;
     }
-    .div-logo{
-        padding: 3.5rem;
-    }
 }
 
 @media screen and (max-width: 990px) {
     .vets {
         width: 50vw;
         margin-top: 3rem;
-    }
-    .div-logo{
-        padding: 3rem;
     }
     .buttons {
         display: table-row;
@@ -259,15 +253,9 @@ a:visited {
     .vets {
         width: 60vw;
     }
-    .div-logo{
-        padding: 2rem;
-    }
 }
 @media screen and (max-width: 460px) {
     .vets {
         width: 80vw;
-    }
-    .div-logo{
-        padding: 1.5rem;
     }
 }
