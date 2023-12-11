@@ -112,7 +112,7 @@ video {
 .main-header{
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 33%;
     transform: translate(-50%, -50%);
 }
 
@@ -230,6 +230,12 @@ a:visited {
     opacity: 50%;
 }
 
+@media screen and (min-width: 1920px){
+    .main-header{
+        left: 30%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .main-header{
         position: absolute;
@@ -249,6 +255,7 @@ a:visited {
     }
     .buttons {
         display: table-row;
+        width: -webkit-fill-available;
     }
     .button{
         margin-bottom: 0.75rem;
