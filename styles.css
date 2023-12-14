@@ -80,6 +80,15 @@ video {
     text-align: center;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
+.wp-button{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wp-button:hover{
+    background-color: #000000;
+    color: #ffc74c;
+    border: solid black;
+}
 
 .text-button{
     font-size: 10px;
@@ -91,6 +100,7 @@ video {
 
 .not-allowed{
     cursor: not-allowed;
+    opacity: 70%;
 }
 .not-pointer{
     pointer-events: none;
@@ -114,10 +124,6 @@ video {
     top: 50%;
     left: 33%;
     transform: translate(-50%, -50%);
-}
-
-a:visited {
-    color: #ffc74c;
 }
 
 .button:hover {
